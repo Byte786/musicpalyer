@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,400&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+  background-color:rgb(4, 29, 56);
+}
+nav{
+  font-family: 'Ubuntu', sans-serif;
+}
+nav ul{
+  display: flex;
+  list-style-type: none;
+  height:65px;
+  background-color: black;
+  color:aliceblue;
+}
+nav ul li{
+  padding: 0 20px;
+}
+.brandname img{
+width:85px;
+padding: 0 8px;
+}
+.brandname{
+  display:flex;
+  align-items: center;
+  font-weight: bolder;
+}
+.container{
+  min-height:75vh;
+  background-color: black;
+  color: aliceblue;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  display: flex;
+  width:70%;
+  margin: 23px auto;
+  border-radius: 34px;
+  padding:14px;
+  background-image: url('https://images.unsplash.com/photo-1614149162883-504ce4d13909?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bXVzaWMlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&w=1000&q=80');
+}
+.bottom{
+  position:sticky;
+  height:80px;
+  background-color:black;
+  color:aliceblue;
+  bottom:0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  /* margin :12px 0; */
+}
+.icons{
+  margin-top: 14px;
+}
+.icons i{
+  cursor: pointer;
+}
+#myProgress bar{
+  width :80vw;
+
+}
+.songItemContainer{
+  margin-top: 74px;
+}
+.songItems{
+  height:50px;
+  display:flex;
+  background-color: white;
+ 
+  color: black;
+  margin:12px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 34px;
+}
+.songItems img{
+  width:43px;
+  margin:0 23px;
+border-radius:34px;
+  
+}
+.timeStamp{
+  margin: 0  32px;
+
+}
+.timeStamp i{
+  cursor: pointer;
+}
+.songInfo{
+  position:absolute;
+  left:10vw;
+
+}
+.songInfo img{
+  opacity:0;
+  transition:opacity 1s ease-in;
+
+}
